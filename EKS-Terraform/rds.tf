@@ -7,7 +7,7 @@ resource "aws_db_instance" "rds" {
   engine                 = "mysql"
   engine_version         = "8.4.8"
   instance_class         = "db.t3.micro"
-  multi_az               = true
+  multi_az               = false
   db_name                = "mydb"
   username               = "admin"
   password               = "Cloud123"
